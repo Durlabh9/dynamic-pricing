@@ -1,0 +1,10 @@
+C:\Users\durla\Downloads\dynamic-pricing\src\main\java\com\dynamicpricing\DynamicPricingApplication.java
+C:\Users\durla\Downloads\dynamic-pricing\src\main\java\com\dynamicpricing\scheduler\PriceUpdateScheduler.java
+C:\Users\durla\Downloads\dynamic-pricing\src\main\java\com\dynamicpricing\utilities\PriceUtils.java
+C:\Users\durla\Downloads\dynamic-pricing\src\main\java\com\dynamicpricing\controller\ProductPriceController.java
+C:\Users\durla\Downloads\dynamic-pricing\src\main\java\com\dynamicpricing\service\ProductPriceService.java
+C:\Users\durla\Downloads\dynamic-pricing\src\main\java\com\dynamicpricing\model\ProductPrice.java
+C:\Users\durla\Downloads\dynamic-pricing\src\main\java\com\dynamicpricing\service\PricePredictionService.java
+C:\Users\durla\Downloads\dynamic-pricing\src\main\java\com\dynamicpricing\dto\PricePredictionRequest.java
+C:\Users\durla\Downloads\dynamic-pricing\src\main\java\com\dynamicpricing\repository\ProductPriceRepository.java
+C:\Users\durla\Downloads\dynamic-pricing\src\main\java\com\dynamicpricing\service\DemandService.java

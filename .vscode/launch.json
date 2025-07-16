@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-DynamicPricingApplication<dynamic-pricing>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.dynamicpricing.DynamicPricingApplication",
+            "projectName": "dynamic-pricing",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

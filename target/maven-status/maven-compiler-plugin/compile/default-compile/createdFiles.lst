@@ -1,0 +1,7 @@
+com\dynamicpricing\repository\ProductPriceRepository.class
+com\dynamicpricing\model\ProductPrice.class
+com\dynamicpricing\dto\PricePredictionRequest.class
+com\dynamicpricing\service\PricePredictionService.class
+com\dynamicpricing\DynamicPricingApplication.class
+com\dynamicpricing\service\ProductPriceService.class
+com\dynamicpricing\controller\ProductPriceController.class
