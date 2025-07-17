@@ -21,7 +21,7 @@ A smart dynamic pricing engine that automatically scrapes product prices from Am
 
   ⚙️ Setup Guide
   1. Clone the Repository
-    git clone https://github.com/your-username/dynamic-pricing.git
+    git clone https://github.com/Durlabh9/dynamic-pricing.git
     cd dynamic-pricing
   2. Install Python Dependencies
     cd price_collector
