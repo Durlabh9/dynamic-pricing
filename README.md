@@ -13,7 +13,7 @@ An intelligent pricing engine that scrapes competitor prices, predicts optimal s
 - [📊 Sample Output](#-sample-output)
 - [📌 Future Improvements](#-future-improvements)
 - [🤝 Contributions](#-contributions)
-- [📄 License](#-license)
+
 
 ## 🚀 Features
 
@@ -159,7 +159,3 @@ Enter margin : 0.15
 Contributions are welcome and appreciated!  
 Feel free to fork this repository, improve the code, and submit a pull request.
 
-## 📄 License
-
-This project is licensed under the **MIT License**.  
-See the [LICENSE](LICENSE) file for more details.
