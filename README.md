@@ -33,44 +33,44 @@ An intelligent pricing engine that scrapes competitor prices, predicts optimal s
 | ML Logic   | Java-based prediction logic |
 
 ## 📁 Project Structure
+
 dynamic-pricing/
+├── .vscode/ # VSCode configuration
+│ └── launch.json
 │
-├── .vscode/                          # VSCode configuration
-│   └── launch.json
+├── ml-model/ # Python-based ML service & scraping
+│ ├── demand-service/
+│ │ ├── demand_api.py # Flask API for ML pricing logic
+│ │ └── requirements.txt
+│ ├── ml_model/
+│ │ ├── database.py # DB interaction for ML layer
+│ │ └── amazon_price_collector.py # Web scraper (e.g., Amazon)
+│ └── requirements.txt
 │
-├── ml-model/                         # Python-based ML service & scraping
-│   ├── demand-service/
-│   │   ├── demand_api.py            # Flask API for ML pricing logic
-│   │   └── requirements.txt
-│   ├── ml_model/
-│   │   ├── database.py              # DB interaction for ML layer
-│   │   └── amazon_price_collector.py  # Web scraper (e.g., Amazon)
-│   └── requirements.txt
-│
-├── src/main/java/com/dynamicpricing/  # Spring Boot Backend
-│   ├── controller/
-│   │   └── ProductPriceController.java  # REST API endpoints
-│   ├── dto/
-│   │   └── PricePredictionRequest.java # DTO for prediction input
-│   ├── model/
-│   │   └── ProductPrice.java           # JPA entity for prices
-│   ├── repository/
-│   │   └── ProductPriceRepository.java # Spring Data JPA repository
-│   ├── scheduler/
-│   │   └── PriceUpdateScheduler.java   # Scheduled scraping tasks
-│   ├── service/
-│   │   ├── DemandService.java
-│   │   ├── PricePredictionService.java
-│   │   └── ProductPriceService.java
-│   └── utilities/
-│       └── (any utility/helper classes)
-│   └── DynamicPricingApplication.java  # Main Spring Boot application
+├── src/main/java/com/dynamicpricing/ # Spring Boot Backend
+│ ├── controller/
+│ │ └── ProductPriceController.java # REST API endpoints
+│ ├── dto/
+│ │ └── PricePredictionRequest.java # DTO for prediction input
+│ ├── model/
+│ │ └── ProductPrice.java # JPA entity for prices
+│ ├── repository/
+│ │ └── ProductPriceRepository.java # Spring Data JPA repository
+│ ├── scheduler/
+│ │ └── PriceUpdateScheduler.java # Scheduled scraping tasks
+│ ├── service/
+│ │ ├── DemandService.java
+│ │ ├── PricePredictionService.java
+│ │ └── ProductPriceService.java
+│ ├── utilities/
+│ │ └── (any utility/helper classes)
+│ └── DynamicPricingApplication.java # Main Spring Boot application
 │
 ├── src/main/resources/
-│   └── application.properties         # Spring Boot config
+│ └── application.properties # Spring Boot config
 │
-├── pom.xml                            # Maven build configuration
-└── target/                            # Compiled classes and JAR (auto-generated)
+├── pom.xml # Maven build configuration
+└── target/ # Compiled classes and JAR (auto-generated)
 
 
 ## ⚙️ Setup Guide
